@@ -8,12 +8,12 @@ public class Test {
 
     @GetMapping("/")
     public String hola() {
-        return "Hi Ronal this is a test.";
+        return "HOLA MUNDO";
     }
 
     @GetMapping("/hola")
     public String holitas() {
-        return "Holitas";
+        return "HOLA MUNDO";
     }
 
 }
